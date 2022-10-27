@@ -2,18 +2,18 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Carlos Valentin Erazo Ramirez
     - name: Date of Birth
-      value: 14th March 1879
+      value: 23rd March 1991
     - name: Languages
-      value: English, German
+      value: English, Spanish, German, French
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: PhD (ongoing)
+      institution: University of Iowa, USA
+      year: 2021
       description:
         - Description 1.
         - Description 2.
@@ -21,12 +21,16 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Masters
+      institution: Polytech Nice-Sophia Antipolis, France
+      year: 2020
       description:
-        - Description 1.
-        - Description 2.
+        - Erasmus Mundus scholar for the EuroAquae Hydroinformatics and Water Management Program
+        - title: Attended Universities
+          contents:
+          - Brandeburg University of Technology, Germany
+          - Newcastle University, United Kingdom
+          - Universitat Polytechnica de Catalunya, Spain
 
 - title: Experience
   type: time_table

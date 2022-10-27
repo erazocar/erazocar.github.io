@@ -1,12 +1,7 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - erazocar
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - uihilab/HydroLang-ML
+  - uihilab/HydroLang
+  - uihilab/BMI-JS
