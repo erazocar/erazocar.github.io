@@ -4,7 +4,7 @@
     - name: Full Name
       value: Carlos Valentin Erazo Ramirez
     - name: Date of Birth
-      value: 23rd March 1991
+      value: 23rd August 1991
     - name: Languages
       value: English, Spanish, German, French
 
@@ -15,7 +15,7 @@
       institution: University of Iowa, USA
       year: 2021
       description:
-        - Description 1.
+        - Hydroinformatics tools development. 
         - Description 2.
         - title: Description 3.
           contents:
@@ -35,9 +35,9 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Research Assistant
+      institution: IIHR-Hydroscience and Engineering, University of Iowa
+      year: 2021 - ongoing
       description:
         - Description 1.
         - Description 2.
@@ -67,10 +67,22 @@
 
 - title: Open Source Projects
   type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+  contents:  
+    - title: <a href="https://github.com/uihilab/BMI-JS">BMI.js</a>
+      year: 2022-now
+      description: JavaScript implementation of the Basic Model Interface (BMI).
+
+    - title: <a href="https://github.com/uihilab/HydroLang-ML">HydroLang-ML</a>
+      year: 2022-now
+      description: Web-component based interface for research and education.
+
+    - title: <a href="https://github.com/erazocar/wqh">WQH</a>
+      year: 2022-now
+      description: Application for water quality monitoring in rural areas of Central America.
+
+    - title: <a href="https://github.com/uihilab/HydroLang">HydroLang</a>
+      year: 2020-now
+      description: Client-side web-based framework for hydrological sciences.
 
 - title: Honors and Awards
   type: time_table
