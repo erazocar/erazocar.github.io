@@ -1,8 +1,9 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: HydroLang-ML
+description: Web components for Reseach and Education
+img: assets/img/hydrolang-ml.jpg
+redirect: https://github.com/uihilab/HydroLang-ML
 importance: 2
 category: work
 ---

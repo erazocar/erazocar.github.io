@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: BMI.js
+description: JavaScript implementation of the Basic Model Interface
+img: assets/img/bmi.jpg
+redirect: https://github.com/uihilab/BMI-JS  
 importance: 3
 category: work
 ---
