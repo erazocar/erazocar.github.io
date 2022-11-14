@@ -16,11 +16,6 @@
       year: 2021
       description:
         - Hydroinformatics tools development. 
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
     - title: Masters
       institution: Polytech Nice-Sophia Antipolis, France
       year: 2020
@@ -31,39 +26,38 @@
           - Brandeburg University of Technology, Germany
           - Newcastle University, United Kingdom
           - Universitat Polytechnica de Catalunya, Spain
+    - title: Bachelors
+      institution: Universidad Technologica Centroamericana, Honduras
+      year: 2015
+      description:
+        - Civil and Environmental Engineering
 
 - title: Experience
   type: time_table
   contents:
-    - title: Research Assistant
+    - title: Graduate Research Assistant
       institution: IIHR-Hydroscience and Engineering, University of Iowa
       year: 2021 - ongoing
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Teaching Assistant
+      institution: Brandenburg University of Technology, Cottbus, Germany
+      year: 2020-2021
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Research Assistant (remote)
+      institution: IIHR-Hydroscience and Engineering, University of Iowa
+      year: 2020
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Research Intern
+      institution: KU Leuven, Leuven, Belgium.
+      year: 2019
+
+    - title: Consultant Engineer
+      institution: Honduran Fund of Social Investments (FHIS), Tegucigalpa, Honduras
+      year: 2017 - 2018
+
+    - title: Junior/Resident Engineer
+      institution: Saybe y Asociados, Tegucigalpa, Honduras
+      year: 2015-2018
 
 - title: Open Source Projects
   type: time_table
@@ -89,25 +83,32 @@
   contents:
     - year: 2021
       items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
+        - CUAHSI Hydroinformatics Innovation Fellowship 
+    - year: 2020
       items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+        - Mention Trés Bien (Summa Cum Laude), Masters in Hydroinformatics and Water Management
+    - year: 2018
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Full scholarship holder, Erasmus Mundus+ scheme
+    - year: 2018
+      items: 
+        - Full scholarship holder (declined), Chevening scholarships
+        
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+
+# - title: Academic Interests
+#   type: nested_list
+#   contents:
+#     - title: Topic 1.
+#       items: 
+#         - Description 1.
+#         - Description 2.
+#     - title: Topic 2.
+#       items:
+#         - Description 1.
+#         - Description 2.
+
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
