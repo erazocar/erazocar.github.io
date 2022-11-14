@@ -2,11 +2,15 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for taught courses.
+description:
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## Teaching Assistant
+### Brandenburg University of Technology, Cottbus Germany
 
-Organize your courses by years, topics, or universities, however you like!
+• Prepared lectures for master-level courses, as well as creation and grading of assignments.
+• Taught 2D-3D hydrodynamic modeling with a special focus on sediment transport, contaminant propagation, and flooding in urban areas using open source software (telemac-mascaret ensemble).
+• Content creation for educational conferences and workshops (HydroEurope).
+
