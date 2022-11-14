@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.iihr.uiowa.edu/'>UIHI Lab | IIHR-Hydroscience and Engineering</a>.
+subtitle: <a href='https://hydroinformatics.uiowa.edu//'>UIHI Lab | IIHR-Hydroscience and Engineering</a>.
 
 profile:
   align: right
