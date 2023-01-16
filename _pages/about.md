@@ -20,6 +20,8 @@ social: true  # includes social icons at the bottom of the page
 
 I'm interested in creating web-based hydroinformatic tools for research and education. A special emphasis is placed on data analytics, machine learning, web development, computational optimization, and cutting-edge mathematical frameworks for hydrological modeling. I'm now attempting to learn about 3D rendering, peer-to-peer data sharing, and intensive computation using native technologies.
 
-I am constantly interested in social equality projects and wish to contribute my grain of salt to the welfare of my native country, Honduras. I intend to accomplish this by employing cutting-edge technology to support research, education, and decision making in areas throughout the world where basic infrastructure and data services are lacking.
+I am constantly interested in social equality projects and wish to contribute my grain of salt to the welfare of my homecountry, Honduras. I intend to accomplish this by creating applications employinh cutting-edge technology to support research, education, and decision making.
 
-I enjoy traveling, running, trying new foods, and generally learning new things. I mostly read classic authors (favorite book: Notes from the Underground, Dost.) and hope to write something of my own one day. I have not yet begun.
+I enjoy traveling, exercising and like mostly all sports, trying new foods, and learning new things. I like to read classic authors (favorite book: Notes from the Underground, Dost.) and hope to write something of my own one day. Not happening soon though!
+
+Any questions about my research or anything in general, shoot my an email and will gladly get back!
