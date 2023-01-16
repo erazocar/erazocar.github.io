@@ -1,1 +1,1 @@
-Host repo for <a href="erazocar.github.io" target="_blank">Carlos Erazo's personal website</a>
+Host repo for [Carlos Erazo Ramirez personal website](erazocar.github.io)
