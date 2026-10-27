@@ -1,0 +1,5 @@
+{%- assign v = site.time | date: '%s' -%}
+<div class="demo-clip">
+  <video src="{{ include.src | prepend: 'assets/img/projects/' | relative_url }}?v={{ v }}" poster="{{ include.poster | prepend: 'assets/img/projects/' | relative_url }}?v={{ v }}" autoplay muted loop playsinline preload="metadata" aria-label="{{ include.alt }}"></video>
+  {%- if include.caption %}<p class="caption">{{ include.caption }}</p>{% endif %}
+</div>

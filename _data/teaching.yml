@@ -1,13 +1,37 @@
-- title: Teaching
+- title: Courses
   type: time_table
   contents:
-    - title: Teaching Assistant
-      institution: Brandenburg University of Technology, Cottbus, Germany
-      year: 2020-2021
+    - title: Teaching Assistant, Informatics for Sustainable Systems (graduate)
+      institution: University of Iowa
+      year: 2024 - 2025
       description:
-        - Assistant for hydroinformatics/environmental science courses 
-        - title: Tasks
-          contents:
-          - Prepared lectures for master-level courses, as well as creation and grading of assignments.
-          - Taught 2D-3D hydrodynamic modeling with a special focus on sediment transport, contaminant propagation, and flooding in urban areas using open source software (telemac-mascaret ensemble).
-          - Content creation for educational conferences and workshops (HydroEurope)
+        - Taught part of the course, including lectures and the laboratory sessions.
+    - title: Teaching Assistant, hydroinformatics and environmental science (M.Sc.)
+      institution: Brandenburg University of Technology, Cottbus, Germany
+      year: 2020 - 2021
+      description:
+        - Taught parts of master-level courses, prepared lectures, and created and graded assignments.
+        - Taught 2D-3D hydrodynamic modeling of sediment transport, contaminant propagation, and urban flooding with the open-source Telemac-Mascaret ensemble.
+        - Created content for the HydroEurope educational conferences and workshops.
+
+- title: Trainings and Workshops
+  type: time_table
+  contents:
+    - title: "HydroBlox: AI-assisted visual programming for reproducible hydrology"
+      institution: CIROH Training and Developers Conference, Salt Lake City, UT
+      year: 2026
+    - title: "<a href='https://www.iahr.org/index/detail/2104'>No-code visual programming for hydrology: AI-enabled web platforms and open-source tools</a>"
+      institution: IAHR training course (online)
+      year: 2025
+    - title: "HydroSuite: open-source community software for hydrological research and education"
+      institution: CIROH Training and Developers Conference, Burlington, VT
+      year: 2025
+    - title: "WaterSoftHack Year 1: data analytics with the HydroSuite tools"
+      institution: NSF WaterSoftHack (online)
+      year: 2024
+    - title: "HydroSuite: open-source collaborative web-based software for hydrology"
+      institution: CIROH Training and Developers Conference, Salt Lake City, UT
+      year: 2024
+    - title: HydroLang and HydroCompute hands-on trainings
+      institution: CIROH Training and Developers Conference, Salt Lake City, UT
+      year: 2023

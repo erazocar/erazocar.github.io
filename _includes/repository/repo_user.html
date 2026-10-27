@@ -1,6 +1,10 @@
-<div class="repo p-2 text-center">
-  <a href="https://github.com/{{ include.username }}">
-    <img class="repo-img-light w-100" alt="{{ include.username }}" src="https://github-readme-stats-sigma-five.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true">
-    <img class="repo-img-dark w-100" alt="{{ include.username }}" src="https://github-readme-stats-sigma-five.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true">
-  </a>
-</div>
+<a class="card hoverable repo-card repo-user" href="https://github.com/{{ include.username }}" data-user="{{ include.username }}">
+  <div class="card-body">
+    <img class="repo-avatar" src="{{ 'assets/img/prof_pic.jpg' | relative_url }}" alt="{{ site.first_name }} {{ site.last_name }}" width="72" height="72">
+    <div>
+      <div class="repo-name">{{ site.first_name }} {{ site.last_name }}</div>
+      <p class="repo-desc"><i class="fab fa-github"></i> github.com/{{ include.username }}</p>
+      <div class="repo-meta"><span class="user-repos"></span><span class="user-followers"></span></div>
+    </div>
+  </div>
+</a>

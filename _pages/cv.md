@@ -4,5 +4,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: updatedNov22_CV.pdf
+cv_pdf: ErazoRamirez_CV_2026.pdf
 ---

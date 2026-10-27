@@ -2,57 +2,33 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of projects. Updated as new projects are finished! 
+description: A few flagship tools, with recorded demos.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
 horizontal: false
 ---
 
 <!-- pages/projects.md -->
+<p>The full list of software, papers and talks is on the <a href="{{ '/overview/' | relative_url }}">overview</a> page.</p>
 <div class="projects">
-{%- if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-  {% endfor %}
-
-{%- else -%}
-<!-- Display projects without categories -->
   {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}
   </div>
-  {%- endif -%}
-{%- endif -%}
+</div>
+
+<h2 class="initiatives-title">Initiatives</h2>
+<div class="initiatives">
+  {%- for i in site.data.initiatives %}{% if i.text %}
+  <div class="card initiative">
+    <div class="card-body">
+      <h3 class="card-title">{{ i.title }}</h3>
+      <p class="initiative-meta">{{ i.role }}{% if i.years %} · {{ i.years }}{% endif %}</p>
+      <p class="card-text">{{ i.text }}</p>
+      {%- if i.url %}<a class="initiative-link" href="{{ i.url }}">{{ i.link | default: 'Learn more' }} →</a>{% endif %}
+    </div>
+  </div>
+  {%- endif %}{% endfor %}
 </div>
