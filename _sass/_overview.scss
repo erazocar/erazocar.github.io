@@ -216,3 +216,27 @@ html[data-theme='dark'] .viz-root {
   .about-hero .about-profile { max-width: 240px; }
   .about-columns { grid-template-columns: 1fr; gap: 24px; }
 }
+
+// Research areas: four cards on the home page, one section per area on the projects page
+.about-areas {
+  margin-bottom: 2.5rem;
+  h2 { font-size: 1.5rem; padding-bottom: 0.5rem; margin-bottom: 1rem; border-bottom: 1px solid var(--global-divider-color); }
+}
+.areas {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 16px;
+  @media (max-width: 900px) { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  @media (max-width: 576px) { grid-template-columns: 1fr; }
+  .area-card { display: block; height: 100%; margin: 0; color: var(--global-text-color); text-decoration: none; }
+  .area-card:hover .card-title { color: var(--global-theme-color); }
+  .card-title { font-size: 1.1rem; margin-bottom: 0.4rem; }
+  .card-text { font-size: 0.9rem; margin-bottom: 0.5rem; }
+  .area-examples { font-size: 0.8rem; color: var(--global-theme-color); margin: 0; }
+}
+.project-area {
+  margin-bottom: 2.5rem;
+  .area-title { font-size: 1.5rem; padding-bottom: 0.5rem; margin-bottom: 0.75rem; border-bottom: 1px solid var(--global-divider-color); }
+  .area-lead { margin-bottom: 0.5rem; }
+  .area-links { font-size: 0.9rem; margin-bottom: 1rem; }
+}

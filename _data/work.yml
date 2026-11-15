@@ -34,6 +34,7 @@ software:
   - { id: hymes, label: HyMES, start: 2025.4, url: "/projects/4_hymes/", desc: "Model evaluation, uncertainty and structural diagnostics for streamflow models" }
   - { id: appstore, label: HydroAppStore, start: 2025.6, url: "/projects/6_hydroapps/", desc: "Store of hydrology apps, workflows, and notebooks that run client-side" }
   - { id: fluxcell, label: FluxCell, start: 2026.3, url: "/projects/1_fluxcell/", desc: "Single-dispatch MUSCL-Hancock HLLC shallow-water solver on WebGPU" }
+  - { id: hydroclaw, label: HydroClaw, start: 2026.7, url: "/projects/7_hydroclaw/", desc: "Study workspace where language-model agents plan and run hydrological studies over a typed method graph" }
 
 awards:
   - { year: 2014.6, label: "Best overall grades in several civil engineering courses, UNITEC" }

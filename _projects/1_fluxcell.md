@@ -4,6 +4,7 @@ title: FluxCell
 description: A fused single-dispatch MUSCL-Hancock HLLC scheme for the shallow-water equations on WebGPU
 img: assets/img/projects/fluxcell-grandisle-ida.jpg
 importance: 1
+area: simulation
 ---
 
 FluxCell is a numerical scheme: second-order MUSCL-Hancock reconstruction with HLLC Riemann fluxes for the 2D shallow-water equations, with the whole time step fused into a single WebGPU compute dispatch. Fusing the reconstruction, flux and update stages avoids round trips between GPU passes, which is what lets a second-order shock-capturing solver run at interactive rates on real terrain (USGS 3DEP, NOAA CUDEM).

@@ -4,6 +4,7 @@ title: HyMES Regional
 description: Regional, multi-station analysis of observations and model simulations
 img: assets/img/projects/hymes-regional-demo.jpg
 importance: 5
+area: evaluation
 ---
 
 HyMES Regional scales model evaluation from one gauge to a whole region. It loads every station in a region for streamflow, precipitation and other variables, compares them against simulations or reanalysis (NWM, ERA5, ECMWF IFS), and maps the results: spatial performance, L-moment frequency, kriging and variograms, trend and change detection, flow regimes, network correlation, extremes and an AI synthesis.

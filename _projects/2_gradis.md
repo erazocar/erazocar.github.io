@@ -4,6 +4,7 @@ title: GRADIS
 description: A complete 2D/3D flood modeling environment that runs in the browser
 img: assets/img/projects/gradis-card.jpg
 importance: 2
+area: simulation
 ---
 
 GRADIS (GPU-Accelerated Real-Time Dynamic Inundation Simulation) is a full flood modeling environment. You bring in terrain for a site, set up rainfall, river inflows and boundary conditions, add levees, buildings, land cover and infiltration, place gauges, pick a physics solver, and run the 2D/3D inundation in real time, with surfaces and hydrographs to export. Everything runs as WebGPU compute on the user's own GPU: nothing to install, no server queue.

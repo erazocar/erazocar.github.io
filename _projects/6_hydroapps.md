@@ -4,6 +4,7 @@ title: HydroApps
 description: A store of hydrology apps, workflows, notebooks and containers that run anywhere
 img: assets/img/projects/hydroapps-demo.jpg
 importance: 6
+area: computing
 ---
 
 HydroApps (HydroAppStore) is where hydrological work is shared as something you can run, not just read. Listings can be web apps, HydroBlox workflows, Python and R notebooks (Pyodide and WebR), model projects, datasets or containers. They run in the browser or on your own machine, and each listing is versioned.

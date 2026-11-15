@@ -4,6 +4,7 @@ title: HyMES
 description: Physics-informed uncertainty and diagnostics for streamflow model evaluation
 img: assets/img/projects/hymes-demo.jpg
 importance: 4
+area: evaluation
 ---
 
 HyMES (Hydrological Model Evaluation System) evaluates streamflow models such as the National Water Model against USGS gauges, entirely in the browser. For each station it runs structural diagnostics (stationarity, trend, seasonality, autocorrelation, flow-duration and hysteresis signatures), MCMC-based uncertainty quantification with ensemble skill scores, and a forecasting playground where physics priors like precipitation gain, soil moisture and roughness can be adjusted live.

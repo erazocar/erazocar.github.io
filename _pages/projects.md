@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A few flagship tools, with recorded demos.
+description: Recent developments in scientific software for hydrology.
 nav: true
 nav_order: 2
 horizontal: false
@@ -10,14 +10,23 @@ horizontal: false
 
 <!-- pages/projects.md -->
 <p>The full list of software, papers and talks is on the <a href="{{ '/overview/' | relative_url }}">overview</a> page.</p>
-<div class="projects">
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
+{%- assign sorted_projects = site.projects | sort: "importance" %}
+{%- for area in site.data.areas %}
+<section class="project-area" id="{{ area.id }}">
+  <h2 class="area-title">{{ area.title }}</h2>
+  <p class="area-lead">{{ area.lead }}</p>
+  {%- if area.links %}
+  <p class="area-links">{% for l in area.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
+  {%- endif %}
+  <div class="projects">
+    <div class="grid">
+      {%- for project in sorted_projects %}{% if project.area == area.id %}
+        {% include projects.html %}
+      {%- endif %}{% endfor %}
+    </div>
   </div>
-</div>
+</section>
+{%- endfor %}
 
 <h2 class="initiatives-title">Initiatives</h2>
 <div class="initiatives">

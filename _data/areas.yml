@@ -1,0 +1,45 @@
+# Research and development areas, in the order the work progressed.
+# Projects join an area through `area:` in their front matter.
+- id: computing
+  title: Web-native scientific computing
+  short: Libraries that move hydrological data retrieval, computation and sharing into the browser.
+  examples: HydroLang · HydroCompute · HydroRTC · HydroApps
+  lead: >
+    Hydrological analysis usually needs installed software, servers and data wrangling before any science happens.
+    These libraries move that work into the browser: a common analysis layer in HydroLang, CPU/GPU workers and WebAssembly
+    in HydroCompute, and peer-to-peer data transfer in HydroRTC. They are part of HydroSuite, an NSF POSE-supported
+    ecosystem of 20+ open-source web libraries, and HydroApps packages results as apps, notebooks and containers anyone can run.
+  links:
+    - { label: HydroLang, url: "https://github.com/uihilab/HydroLang" }
+    - { label: HydroCompute, url: "https://github.com/uihilab/HydroCompute" }
+    - { label: HydroRTC, url: "https://github.com/uihilab/HydroRTC" }
+    - { label: HydroSuite, url: "https://hydroinformatics.tulane.edu/lab/hydrosuite/" }
+
+- id: simulation
+  title: GPU numerical simulation
+  short: Second-order shallow-water solvers and a complete flood modeling environment on WebGPU.
+  examples: FluxCell · GRADIS
+  lead: >
+    Shock-capturing flood solvers usually run as desktop codes or on clusters. FluxCell fuses reconstruction, Riemann fluxes
+    and the update of each time step into a single WebGPU dispatch, and GRADIS builds a complete 2D/3D flood modeling
+    environment on GPU solvers: terrain, forcing, structures and gauges, running in real time on the user's own GPU.
+
+- id: evaluation
+  title: Model evaluation
+  short: Diagnostics and uncertainty for models and monitoring networks, from one gauge to a region.
+  examples: HyMES · HyMES Regional
+  lead: >
+    Agreement between simulations and observations is often reduced to a few skill scores. HyMES adds structural
+    diagnostics, hydrological signatures and MCMC-based uncertainty at each gauge, and HyMES Regional extends the analysis to
+    station networks with kriging, L-moment frequency and trend detection. Both are described in preprints under review at
+    Environmental Modelling & Software, with support from NSF award 2611747.
+
+- id: ai
+  title: AI-assisted research systems
+  short: Workflows and agents that plan, validate and record hydrological analyses.
+  examples: HydroBlox · HydroClaw
+  lead: >
+    Language models can write and run analyses, but the code behind each result usually lives in one session. HydroBlox
+    makes every workflow step a visible block that can be checked and rerun, with an AI assistant beside the canvas.
+    HydroClaw is a study workspace where language-model agents plan and run hydrological analyses from a library of
+    validated methods.
